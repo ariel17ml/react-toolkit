@@ -58,10 +58,6 @@
     "dist"
   ],
   "dependencies": {
-    "auth0-js": "^9.8.0",
-    "bootstrap": "^3.3.7",
-    "react-bootstrap": "^0.32.4",
-    "react-emotion": "^9.2.12",
-    "react-spinners": "^0.4.5"
+    "auth0-js": "^9.8.0"
   }
 }
