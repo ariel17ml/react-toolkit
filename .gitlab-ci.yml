@@ -5,3 +5,5 @@ npm-build:
   script:
     - npm install
     - npm test
+  only:
+    - tags
