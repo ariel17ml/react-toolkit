@@ -1,12 +1,12 @@
 import React, { Component } from 'react'
-import Logger from 'react-toolkit/Logger';
+import { Logger } from 'react-toolkit';
 
 
 export default class App extends Component {
 
   constructor(props) {
     super(props);
-    this._logger = new Logger();
+    this._logger = new Logger(true);
   }
 
   render () {
