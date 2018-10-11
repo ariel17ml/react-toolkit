@@ -3,6 +3,7 @@ import Client from './APIClient';
 import Alert from './Alert';
 import Header from './Header';
 import { Auth, AuthCallback } from './Auth0';
+import Loading from './Loading';
 
 
 export{ 
@@ -10,5 +11,6 @@ export{
     Client,
     Alert,
     Header,
-    Auth, AuthCallback
+    Auth, AuthCallback,
+    Loading
 };
