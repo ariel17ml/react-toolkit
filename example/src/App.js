@@ -1,13 +1,18 @@
 import React, { Component } from 'react'
+import Logger from 'react-toolkit/Logger';
 
-import ExampleComponent from 'react-toolkit'
 
 export default class App extends Component {
+
+  constructor(props) {
+    super(props);
+    this._logger = new Logger();
+  }
+
   render () {
+    this._logger.info("This is render()");
     return (
-      <div>
-        <ExampleComponent text='Modern React component module' />
-      </div>
-    )
+      <div>HELLO WORLD!</div>
+    );
   }
 }

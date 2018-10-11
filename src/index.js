@@ -1,22 +1,14 @@
-import React, { Component } from 'react'
-import PropTypes from 'prop-types'
+import Logger from './Logger';
+import Client from './APIClient';
+import Alert from './Alert';
+import Header from './Header';
+import { Auth, AuthCallback } from './Auth0';
 
-import styles from './styles.css'
 
-export default class ExampleComponent extends Component {
-  static propTypes = {
-    text: PropTypes.string
-  }
-
-  render() {
-    const {
-      text
-    } = this.props
-
-    return (
-      <div className={styles.test}>
-        Example Component: {text}
-      </div>
-    )
-  }
-}
+export{ 
+    Logger,
+    Client,
+    Alert,
+    Header,
+    Auth, AuthCallback
+};
