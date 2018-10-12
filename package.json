@@ -58,6 +58,8 @@
     "dist"
   ],
   "dependencies": {
-    "auth0-js": "^9.8.0"
+    "auth0-js": "^9.8.0",
+    "react-bootstrap": "^1.0.0-beta.1",
+    "react-spinkit": "^3.0.0"
   }
 }

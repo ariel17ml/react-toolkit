@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import { Logger, Auth, Header } from 'react-toolkit';
+import { Logger, Auth, Loading } from 'react-toolkit';
 
 
 export default class App extends Component {
@@ -15,8 +15,11 @@ export default class App extends Component {
     return (
       <div>
         <h1>HELLO WORLD!</h1>
+        
         <h2>Header</h2>
-        <Header />
+
+        <h2>Loading</h2>
+        <Loading />
       </div>
     );
   }

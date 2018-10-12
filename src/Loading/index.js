@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import { Col, Row } from "react-bootstrap";
-import ScaleLoader from "react-spinners/ScaleLoader";
+import Spinner from "react-spinkit";
 
 
 class Loading extends Component {
@@ -9,7 +9,7 @@ class Loading extends Component {
     return (
         <Col sm={1} md={1} smOffset={6} mdOffset={6}>
             <Row>
-                <ScaleLoader loading={true} />
+                <Spinner name="line-scale-pulse-out-rapid" color="blue"/>
                 <p>LOADING</p>
             </Row>
         </Col>
